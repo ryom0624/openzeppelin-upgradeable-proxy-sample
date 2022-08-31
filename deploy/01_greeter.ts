@@ -34,7 +34,7 @@ module.exports = async ({ deployments, getNamedAccounts }: any) => {
       execute: {
         init: {
           methodName: "setGreeting",
-          args: ["hello"],
+          args: ["Hello"],
         },
       },
     } as ProxyOptions,

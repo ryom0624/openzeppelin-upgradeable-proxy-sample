@@ -31,11 +31,11 @@ module.exports = async ({ deployments, getNamedAccounts }: any) => {
       execute: {
         init: {
           methodName: "setGreeting",
-          args: ["helloV2"],
+          args: ["HelloV2"],
         }, // バグ??
         onUpgrade: {
           methodName: "setGreeting",
-          args: ["helloV2"],
+          args: ["HelloV2"],
         },
       },
     } as ProxyOptions,
